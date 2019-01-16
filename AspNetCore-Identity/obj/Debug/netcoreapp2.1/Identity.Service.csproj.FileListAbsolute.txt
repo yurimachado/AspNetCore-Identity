@@ -1,0 +1,90 @@
+D:\Projects\STS\Identity.Service\bin\Debug\netcoreapp2.1\Identity.Service.deps.json
+D:\Projects\STS\Identity.Service\bin\Debug\netcoreapp2.1\Identity.Service.runtimeconfig.json
+D:\Projects\STS\Identity.Service\bin\Debug\netcoreapp2.1\Identity.Service.runtimeconfig.dev.json
+D:\Projects\STS\Identity.Service\bin\Debug\netcoreapp2.1\Identity.Service.dll
+D:\Projects\STS\Identity.Service\bin\Debug\netcoreapp2.1\Identity.Service.pdb
+D:\Projects\STS\Identity.Service\obj\Debug\netcoreapp2.1\Identity.Service.csproj.CoreCompileInputs.cache
+D:\Projects\STS\Identity.Service\obj\Debug\netcoreapp2.1\Identity.Service.RazorAssemblyInfo.cache
+D:\Projects\STS\Identity.Service\obj\Debug\netcoreapp2.1\Identity.Service.RazorAssemblyInfo.cs
+D:\Projects\STS\Identity.Service\obj\Debug\netcoreapp2.1\Identity.Service.AssemblyInfoInputs.cache
+D:\Projects\STS\Identity.Service\obj\Debug\netcoreapp2.1\Identity.Service.AssemblyInfo.cs
+D:\Projects\STS\Identity.Service\obj\Debug\netcoreapp2.1\Identity.Service.RazorTargetAssemblyInfo.cache
+D:\Projects\STS\Identity.Service\obj\Debug\netcoreapp2.1\Identity.Service.dll
+D:\Projects\STS\Identity.Service\obj\Debug\netcoreapp2.1\Identity.Service.pdb
+D:\Projects\STS\Identity.Service\bin\Debug\netcoreapp2.1\Identity.Service.Views.dll
+D:\Projects\STS\Identity.Service\bin\Debug\netcoreapp2.1\Identity.Service.Views.pdb
+D:\Projects\STS\Identity.Service\obj\Debug\netcoreapp2.1\Identity.Service.TagHelpers.input.cache
+D:\Projects\STS\Identity.Service\obj\Debug\netcoreapp2.1\Identity.Service.TagHelpers.output.cache
+D:\Projects\STS\Identity.Service\obj\Debug\netcoreapp2.1\Identity.Service.RazorCoreGenerate.cache
+D:\Projects\STS\Identity.Service\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+D:\Projects\STS\Identity.Service\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+D:\Projects\STS\Identity.Service\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+D:\Projects\STS\Identity.Service\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+D:\Projects\STS\Identity.Service\obj\Debug\netcoreapp2.1\Identity.Service.RazorTargetAssemblyInfo.cs
+D:\Projects\STS\Identity.Service\obj\Debug\netcoreapp2.1\Identity.Service.Views.pdb
+D:\Projects\STS\Identity.Service\obj\Debug\netcoreapp2.1\Identity.Service.csproj.CopyComplete
+D:\Projects\STS\Identity.Service\obj\Debug\netcoreapp2.1\Razor\Views\Account\Register.g.cshtml.cs
+D:\Projects\STS\Identity.Service\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.g.cshtml.cs
+D:\Projects\STS\Identity.Service\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+D:\Projects\STS\Identity.Service\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+D:\Projects\STS\Identity.Service\obj\Debug\netcoreapp2.1\Razor\Views\Account\Reset.g.cshtml.cs
+D:\Projects\STS\Identity.Service\obj\Debug\netcoreapp2.1\Razor\Views\Account\Forgot.g.cshtml.cs
+D:\Projects\STS\Identity.Service\obj\Debug\netcoreapp2.1\Razor\Views\Account\Confirmation.g.cshtml.cs
+D:\Projects\STS\Identity.Service\obj\Debug\netcoreapp2.1\Identity.Service.csprojAssemblyReference.cache
+D:\Projects\STS\Identity.Service\obj\Debug\netcoreapp2.1\Razor\Views\Account\Registered.g.cshtml.cs
+D:\Projects\STS\Identity.Service\obj\Debug\netcoreapp2.1\Razor\Views\Account\Result.g.cshtml.cs
+D:\Projects\STS\Identity.Service\obj\Debug\netcoreapp2.1\Razor\Views\AccountManagement\Index.g.cshtml.cs
+D:\Projects\STS\Identity.Service\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Page404.g.cshtml.cs
+D:\Projects\STS\Identity.Service\obj\Debug\netcoreapp2.1\Razor\Views\AccountManagement\Edit.g.cshtml.cs
+D:\Projects\STS\Identity.Service\obj\Debug\netcoreapp2.1\Razor\Views\AccountManagement\Edited.g.cshtml.cs
+D:\Projects\STS\Identity.Service\obj\Debug\netcoreapp2.1\Razor\Views\AccountManagement\Create.g.cshtml.cs
+D:\Projects\STS\Identity.Service\obj\Debug\netcoreapp2.1\Razor\Views\AccountManagement\Created.g.cshtml.cs
+D:\Projects\STS\Identity.Service\obj\Debug\netcoreapp2.1\Razor\Views\Profile\Edit.g.cshtml.cs
+D:\Projects\STS\Identity.Service\obj\Debug\netcoreapp2.1\Razor\Views\Profile\Edited.g.cshtml.cs
+D:\Projects\STS\Identity.Service\obj\Debug\netcoreapp2.1\Razor\Views\Account\RegisterConfirmationEmail.g.cshtml.cs
+D:\Projects\STS\Identity.Service\obj\Debug\netcoreapp2.1\Razor\Views\Account\ResetPasswordEmail.g.cshtml.cs
+D:\Dev Folder\Projects\Github\yuricmachado\AspNetCore-Identity\bin\Debug\netcoreapp2.1\Identity.Service.deps.json
+D:\Dev Folder\Projects\Github\yuricmachado\AspNetCore-Identity\bin\Debug\netcoreapp2.1\Identity.Service.runtimeconfig.json
+D:\Dev Folder\Projects\Github\yuricmachado\AspNetCore-Identity\bin\Debug\netcoreapp2.1\Identity.Service.runtimeconfig.dev.json
+D:\Dev Folder\Projects\Github\yuricmachado\AspNetCore-Identity\bin\Debug\netcoreapp2.1\Identity.Service.dll
+D:\Dev Folder\Projects\Github\yuricmachado\AspNetCore-Identity\bin\Debug\netcoreapp2.1\Identity.Service.pdb
+D:\Dev Folder\Projects\Github\yuricmachado\AspNetCore-Identity\bin\Debug\netcoreapp2.1\Identity.Service.Views.dll
+D:\Dev Folder\Projects\Github\yuricmachado\AspNetCore-Identity\bin\Debug\netcoreapp2.1\Identity.Service.Views.pdb
+D:\Dev Folder\Projects\Github\yuricmachado\AspNetCore-Identity\obj\Debug\netcoreapp2.1\Identity.Service.csprojAssemblyReference.cache
+D:\Dev Folder\Projects\Github\yuricmachado\AspNetCore-Identity\obj\Debug\netcoreapp2.1\Identity.Service.csproj.CoreCompileInputs.cache
+D:\Dev Folder\Projects\Github\yuricmachado\AspNetCore-Identity\obj\Debug\netcoreapp2.1\Identity.Service.RazorAssemblyInfo.cache
+D:\Dev Folder\Projects\Github\yuricmachado\AspNetCore-Identity\obj\Debug\netcoreapp2.1\Identity.Service.RazorAssemblyInfo.cs
+D:\Dev Folder\Projects\Github\yuricmachado\AspNetCore-Identity\obj\Debug\netcoreapp2.1\Identity.Service.AssemblyInfoInputs.cache
+D:\Dev Folder\Projects\Github\yuricmachado\AspNetCore-Identity\obj\Debug\netcoreapp2.1\Identity.Service.AssemblyInfo.cs
+D:\Dev Folder\Projects\Github\yuricmachado\AspNetCore-Identity\obj\Debug\netcoreapp2.1\Identity.Service.TagHelpers.input.cache
+D:\Dev Folder\Projects\Github\yuricmachado\AspNetCore-Identity\obj\Debug\netcoreapp2.1\Identity.Service.TagHelpers.output.cache
+D:\Dev Folder\Projects\Github\yuricmachado\AspNetCore-Identity\obj\Debug\netcoreapp2.1\Identity.Service.RazorCoreGenerate.cache
+D:\Dev Folder\Projects\Github\yuricmachado\AspNetCore-Identity\obj\Debug\netcoreapp2.1\Razor\Views\AccountManagement\Create.g.cshtml.cs
+D:\Dev Folder\Projects\Github\yuricmachado\AspNetCore-Identity\obj\Debug\netcoreapp2.1\Razor\Views\AccountManagement\Created.g.cshtml.cs
+D:\Dev Folder\Projects\Github\yuricmachado\AspNetCore-Identity\obj\Debug\netcoreapp2.1\Razor\Views\AccountManagement\Edit.g.cshtml.cs
+D:\Dev Folder\Projects\Github\yuricmachado\AspNetCore-Identity\obj\Debug\netcoreapp2.1\Razor\Views\AccountManagement\Edited.g.cshtml.cs
+D:\Dev Folder\Projects\Github\yuricmachado\AspNetCore-Identity\obj\Debug\netcoreapp2.1\Razor\Views\AccountManagement\Index.g.cshtml.cs
+D:\Dev Folder\Projects\Github\yuricmachado\AspNetCore-Identity\obj\Debug\netcoreapp2.1\Razor\Views\Account\Confirmation.g.cshtml.cs
+D:\Dev Folder\Projects\Github\yuricmachado\AspNetCore-Identity\obj\Debug\netcoreapp2.1\Razor\Views\Account\Forgot.g.cshtml.cs
+D:\Dev Folder\Projects\Github\yuricmachado\AspNetCore-Identity\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.g.cshtml.cs
+D:\Dev Folder\Projects\Github\yuricmachado\AspNetCore-Identity\obj\Debug\netcoreapp2.1\Razor\Views\Account\Register.g.cshtml.cs
+D:\Dev Folder\Projects\Github\yuricmachado\AspNetCore-Identity\obj\Debug\netcoreapp2.1\Razor\Views\Account\RegisterConfirmationEmail.g.cshtml.cs
+D:\Dev Folder\Projects\Github\yuricmachado\AspNetCore-Identity\obj\Debug\netcoreapp2.1\Razor\Views\Account\Registered.g.cshtml.cs
+D:\Dev Folder\Projects\Github\yuricmachado\AspNetCore-Identity\obj\Debug\netcoreapp2.1\Razor\Views\Account\Reset.g.cshtml.cs
+D:\Dev Folder\Projects\Github\yuricmachado\AspNetCore-Identity\obj\Debug\netcoreapp2.1\Razor\Views\Account\ResetPasswordEmail.g.cshtml.cs
+D:\Dev Folder\Projects\Github\yuricmachado\AspNetCore-Identity\obj\Debug\netcoreapp2.1\Razor\Views\Account\Result.g.cshtml.cs
+D:\Dev Folder\Projects\Github\yuricmachado\AspNetCore-Identity\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+D:\Dev Folder\Projects\Github\yuricmachado\AspNetCore-Identity\obj\Debug\netcoreapp2.1\Razor\Views\Profile\Edit.g.cshtml.cs
+D:\Dev Folder\Projects\Github\yuricmachado\AspNetCore-Identity\obj\Debug\netcoreapp2.1\Razor\Views\Profile\Edited.g.cshtml.cs
+D:\Dev Folder\Projects\Github\yuricmachado\AspNetCore-Identity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Page404.g.cshtml.cs
+D:\Dev Folder\Projects\Github\yuricmachado\AspNetCore-Identity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+D:\Dev Folder\Projects\Github\yuricmachado\AspNetCore-Identity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+D:\Dev Folder\Projects\Github\yuricmachado\AspNetCore-Identity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+D:\Dev Folder\Projects\Github\yuricmachado\AspNetCore-Identity\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+D:\Dev Folder\Projects\Github\yuricmachado\AspNetCore-Identity\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+D:\Dev Folder\Projects\Github\yuricmachado\AspNetCore-Identity\obj\Debug\netcoreapp2.1\Identity.Service.RazorTargetAssemblyInfo.cache
+D:\Dev Folder\Projects\Github\yuricmachado\AspNetCore-Identity\obj\Debug\netcoreapp2.1\Identity.Service.RazorTargetAssemblyInfo.cs
+D:\Dev Folder\Projects\Github\yuricmachado\AspNetCore-Identity\obj\Debug\netcoreapp2.1\Identity.Service.Views.pdb
+D:\Dev Folder\Projects\Github\yuricmachado\AspNetCore-Identity\obj\Debug\netcoreapp2.1\Identity.Service.dll
+D:\Dev Folder\Projects\Github\yuricmachado\AspNetCore-Identity\obj\Debug\netcoreapp2.1\Identity.Service.pdb
+D:\Dev Folder\Projects\Github\yuricmachado\AspNetCore-Identity\obj\Debug\netcoreapp2.1\Identity.Service.csproj.CopyComplete

@@ -1,0 +1,66 @@
+﻿@model ResultViewModel
+
+@section styles {
+    <link href="~/css/layouts/page-center.css" type="text/css" rel="stylesheet">
+}
+
+@section scripts {
+    <script type="text/javascript">
+        $('#SuccessAlert').addClass('animated fadeInUp');
+        $('#ErrorAlert').addClass('animated fadeInUp');
+    </script>
+}
+
+<div id="login-page" class="row">
+    <div class="col s12 z-depth-4 card-panel">
+        <div class="login-form">
+            <div class="row">
+                <div class="input-field col s12 center">
+                    <h4>@Model.Title</h4>
+                    <p class="center">@Model.Description</p>
+                </div>
+            </div>
+            @if (Model.IsSuccess)
+            {
+                <div class="row" id="SuccessAlert">
+                    <div class="input-field col s12 center">
+                        <div id="card-alert" class="card cyan lighten-5">
+                            <div class="card-content">
+                                @foreach (var message in Model.Messages)
+                                {
+                                    <p class="center">@message</p>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+            else
+            {
+                <div class="row" id="ErrorAlert">
+                    <div class="input-field col s12 center">
+                        <div id="card-alert" class="card red lighten-5">
+                            <div class="card-content red-text">
+                                <div class="center">
+                                    @foreach (var message in Model.Messages)
+                                    {
+                                        <p class="center">@message</p>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+            <div class="row">
+                <div class="input-field col s12">
+                    <p class="margin sign-up">
+                        <a asp-action="Login">Login</a>
+                        <a asp-action="Register" class="right">Register</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

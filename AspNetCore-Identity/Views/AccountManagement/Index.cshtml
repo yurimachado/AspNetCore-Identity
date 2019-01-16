@@ -1,0 +1,104 @@
+﻿@model IEnumerable<Identity.Service.Application.Query.User.Dto.AccountDTO>
+@{
+    ViewData["Title"] = "Accounts";
+}
+
+@section styles {
+    <link href="~/vendors/prism/prism.css" type="text/css" rel="stylesheet">
+    <link href="~/vendors/data-tables/css/jquery.dataTables.min.css" type="text/css" rel="stylesheet">
+}
+
+@section scripts {
+    <script type="text/javascript" src="~/vendors/data-tables/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="~/js/scripts/data-tables.js"></script>
+    <script type="text/javascript">
+        layoutMenuItem.SetActiveMenuItem("accounts-menu-item");
+    </script>
+}
+
+@section Breadcrumbs
+    {
+    <div class="row">
+        <div class="col s10 m6 l6">
+            <ol class="breadcrumbs">
+                <li><a asp-action="Index">Account</a></li>
+                <li class="active">Users</li>
+            </ol>
+        </div>
+    </div>
+}
+
+<div class="divider"></div>
+<div id="table-datatables">
+    <div class="row">
+        <div class="col s12">
+            <table id="accounts-editable-data-table" class="responsive-table display" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Edit</th>
+                        <th>ID</th>
+                        <th>Username</th>
+                        <th>Email</th>
+                        <th>Phone number</th>
+                        <th class="center">Blocked</th>
+                        <th class="center">Lockout enabled</th>
+                        <th class="center">Number of attempts</th>
+                        <th class="center">Two factor enabled</th>
+                        <th class="center">Email confirmed</th>
+                        <th class="center">Phone confirmed</th>
+                        <th class="center">Is an administrator</th>
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                        <th>Edit</th>
+                        <th>ID</th>
+                        <th>Username</th>
+                        <th>Email</th>
+                        <th>Phone number</th>
+                        <th class="center">Blocked</th>
+                        <th class="center">Lockout enabled</th>
+                        <th class="center">Number of attempts</th>
+                        <th class="center">Two factor enabled</th>
+                        <th class="center">Email confirmed</th>
+                        <th class="center">Phone confirmed</th>
+                        <th class="center">Is an administrator</th>
+                    </tr>
+                </tfoot>
+                <tbody>
+                    @foreach (var user in Model)
+                    {
+                    <tr>
+                        <td class="center">
+                            <a asp-action="Edit" asp-controller="AccountManagement" asp-route-id="@user.Id">
+                                <i class="material-icons">mode_edit</i>
+                            </a>
+                        </td>
+                        <td>@user.Id</td>
+                        <td>@user.Username</td>
+                        <td>@user.Email</td>
+                        <td>@user.PhoneNumber</td>
+                        <td class="center">@user.IsBlocked</td>
+                        <td class="center">@user.LockoutEnabled</td>
+                        <td class="center">@user.AccessFailedCount</td>
+                        <td class="center">@user.TwoFactorEnabled</td>
+                        <td class="center">@user.EmailConfirmed</td>
+                        <td class="center">@user.PhoneNumberConfirmed</td>
+                        <td class="center">@user.IsAdmin</td>
+                    </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+@section FloatingButton {
+    <!-- Floating Action Button -->
+    <div class="fixed-action-btn" style="bottom: 50px; right: 19px;">
+        <a class="btn-floating btn-large" asp-action="Create" title="Create user">
+            <i class="material-icons">add</i>
+        </a>
+    </div>
+    <!-- Floating Action Button -->
+}

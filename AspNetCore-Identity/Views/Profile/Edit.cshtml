@@ -1,0 +1,82 @@
+﻿@model Identity.Service.Application.Commands.User.EditUserProfileCommand
+
+@{
+    ViewData["Title"] = "Edit Profile";
+}
+
+@section form_elements_scripts {
+    <!--form-elements.js - Page Specific JS codes-->
+    <script type="text/javascript" src="~/js/scripts/form-elements.js"></script>
+}
+
+@section Breadcrumbs
+    {
+    <div class="row">
+        <div class="col s10 m6 l6">
+            <ol class="breadcrumbs">
+                <li><a asp-action="Edit">Profile</a></li>
+                <li class="active">Edit</li>
+            </ol>
+        </div>
+    </div>
+}
+<div class="divider"></div>
+<div class="row">
+    <div class="col s12">
+        <div class="card-panel">
+            <h4 class="header2">Edit your profile</h4>
+            <div class="row">
+                <form id="EditForm" class="col s12" asp-action="Edit" method="post">
+                    <input type="hidden" asp-for="UserId"  />
+                    @if (!ViewData.ModelState.IsValid)
+                    {
+                        <div class="row" id="ErrorAlert">
+                            <div class="input-field col s12 center">
+                                <div id="card-alert" class="card red lighten-5">
+                                    <div class="card-content red-text">
+                                        <div class="center">
+                                            @foreach (var modelState in ViewData.ModelState.Values)
+                                            {
+                                                foreach (ModelError error in modelState.Errors)
+                                                {
+                                                    <p>@error.ErrorMessage</p>
+                                                }
+                                            }
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                    <div class="row">
+                        <div class="input-field col s12 l4">
+                            <i class="material-icons prefix pt-3">account_circle</i>
+                            <input asp-for="Username" type="text">
+                            <label for="Username">Username</label>
+                        </div>
+                        <div class="input-field col s12 l4">
+                            <i class="material-icons prefix pt-3">email</i>
+                            <input asp-for="Email" type="email">
+                            <label for="Email">Email</label>
+                        </div>
+                        <div class="input-field col s12 l4">
+                            <i class="material-icons prefix pt-3">phone</i>
+                            <input asp-for="PhoneNumber" type="text">
+                            <label for="PhoneNumber">Phone Number</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <button class="btn cyan waves-effect waves-light right" type="submit">
+                                    Save
+                                    <i class="material-icons right">save</i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

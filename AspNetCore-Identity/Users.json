@@ -1,0 +1,54 @@
+{
+  "Users": [
+    {
+      "LockoutEnd": "12/26/2018 14:38:00 PM",
+      "TwoFactorEnabled": false,
+      "PhoneNumberConfirmed": false,
+      "PhoneNumber": "+5562994906262",
+      "ConcurrencyStamp": "1213bbdb-3ced-4ce8-8682-e51ac4488d4d",
+      "SecurityStamp": "e5f8cb18-59e0-49a1-9327-f326e7e27883",
+      "PasswordHash": "AQAAAAEAACcQAAAAELElx+BWTLrS9AsIFmpFWoT2R44/irBgBEEWU81xJ2TmvL3+ZQNrlQD/utvUOgKzhQ==",
+      "EmailConfirmed": true,
+      "NormalizedEmail": "YCMACHADO@GMAIL.COM",
+      "Email": "ycmachado@gmail.com",
+      "NormalizedUserName": "YCMACHADO",
+      "UserName": "ycmachado",
+      "Id": "b369d8b6-288b-437f-84cd-6d256ce47645",
+      "LockoutEnabled": true,
+      "AccessFailedCount": 0,
+      "Roles": [
+        {
+          "Id": "admin-1",
+          "Name": "Admin",
+          "NormalizedName": "ADMIN",
+          "ConcurrencyStamp": "a4578f17-7d53-4775-8767-2c51bcab0a19"
+        }
+      ]
+    },
+    {
+      "LockoutEnd": "12/26/2018 14:38:00 PM",
+      "TwoFactorEnabled": false,
+      "PhoneNumberConfirmed": false,
+      "PhoneNumber": "+5562995080000",
+      "ConcurrencyStamp": "6669f2a3-1e94-46b3-b563-f11b1e725fe3",
+      "SecurityStamp": "e96e6d46-9d1e-404a-86c8-2d2e3250ceb5",
+      "PasswordHash": "AQAAAAEAACcQAAAAELElx+BWTLrS9AsIFmpFWoT2R44/irBgBEEWU81xJ2TmvL3+ZQNrlQD/utvUOgKzhQ==",
+      "EmailConfirmed": true,
+      "NormalizedEmail": "DEC.ENF@HOTMAIL.COM",
+      "Email": "dec.enf@hotmail.com",
+      "NormalizedUserName": "DAYSEEDWIGES",
+      "UserName": "dayseedwiges",
+      "Id": "ce4a9a1d-08fa-49f0-b271-a12c8c3315d7",
+      "LockoutEnabled": true,
+      "AccessFailedCount": 0,
+      "Roles": [
+        {
+          "Id": "guest-1",
+          "Name": "guest",
+          "NormalizedName": "GUEST",
+          "ConcurrencyStamp": "bd6b6f6b-ade7-4479-bf3e-7c9f5c698810"
+        }
+      ]
+    }
+  ]
+}

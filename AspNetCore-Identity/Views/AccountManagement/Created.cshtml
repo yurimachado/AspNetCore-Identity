@@ -1,0 +1,75 @@
+﻿@model Identity.Service.Application.Commands.User.CreateUserCommand
+
+@{
+    ViewData["Title"] = "Created Account";
+}
+
+@section scripts {
+    <script type="text/javascript">
+        layoutMenuItem.SetActiveMenuItem("accounts-menu-item");
+    </script>
+}
+
+
+@section form_elements_scripts {
+    <!--form-elements.js - Page Specific JS codes-->
+    <script type="text/javascript" src="~/js/scripts/form-elements.js"></script>
+}
+
+@section Breadcrumbs
+    {
+    <div class="row">
+        <div class="col s10 m6 l6">
+            <ol class="breadcrumbs">
+                <li><a asp-action="Index">Account</a></li>
+                <li><a asp-action="Index">Users</a></li>
+                <li class="active">Created</li>
+            </ol>
+        </div>
+    </div>
+}
+<div class="divider"></div>
+<div class="row">
+    <div class="col s12">
+        <div class="card-panel">
+            <h4 class="header2">Information Created</h4>
+            <div class="row">
+                <div class="col s12" asp-action="Edit" method="post">
+                    <div class="row">
+                        <div class="input-field col s12 l4">
+                            <span><b>Username</b> : @Model.Username</span>
+                        </div>
+                        <div class="input-field col s12 l4">
+                            <span><b>Email</b> : @Model.Email</span>
+                        </div>
+                        <div class="input-field col s12 l4">
+                            <span><b>Phone number</b> : @Model.PhoneNumber</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12 l4">
+                            <span><b>Account blocked</b> : @(Model.IsBlocked ? "Yes" : "No")</span>
+                        </div>
+                        <div class="input-field col s12 l4">
+                            <span><b>Email confirmed</b> : @(Model.EmailConfirmed ? "Yes" : "No")</span>
+                        </div>
+                        <div class="input-field col s12 l4">
+                            <span><b>Phone number confirmed</b> : @(Model.PhoneNumberConfirmed ? "Yes" : "No")</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12 l4">
+                            <span><b>Two factor authentication enabled</b> : @(Model.TwoFactorEnabled ? "Yes" : "No")</span>
+                        </div>
+                        <div class="input-field col s12 l4">
+                            <span><b>Lockout enabled</b> : @(Model.LockoutEnabled ? "Yes" : "No")</span>
+                        </div>
+                        <div class="input-field col s12 l4">
+                            <span><b>Is administrator</b> : @(Model.IsAdmin ? "Yes" : "No")</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

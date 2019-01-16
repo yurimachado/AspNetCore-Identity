@@ -1,0 +1,23 @@
+/*================================================================================
+	Item Name: Materialize - Material Design Admin Template
+	Version: 4.0
+	Author: PIXINVENT
+	Author URL: https://themeforest.net/user/pixinvent/portfolio
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN CSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+#registeredAlert,
+#SuccessAlert 
+#ErrorAlert {
+    animation-duration: .5s;
+    animation-delay: 1s;
+}
+
+/* FIX: WHEN IN MOBILE MODE THE THEAD AND TBODY WERE NOT BEING ALIGNED */
+table.dataTable tbody th, table.dataTable tbody td {
+    padding: 10.5px 4px !important;
+}
